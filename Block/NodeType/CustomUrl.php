@@ -56,7 +56,7 @@ class CustomUrl extends AbstractNode
     /**
      * @param array $nodes
      */
-    public function fetchData(array $nodes)
+    public function fetchData($nodes)
     {
         $storeId = $this->_storeManager->getStore()->getId();
 
